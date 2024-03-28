@@ -1,8 +1,11 @@
+import Header from "@/src/components/Header";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div className="w-[100%] h-auto">
+      <Header />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
